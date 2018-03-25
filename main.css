@@ -1,0 +1,16 @@
+#infoDiv {
+  margin: 50px auto;
+  width : 350px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+h2 {
+  font-size: 30px;
+  color: #333;
+  font-family: Helvetica;
+}
+.margin-only {
+  margin-top: 15px;
+}
