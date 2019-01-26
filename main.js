@@ -5,8 +5,9 @@ let xml = new XMLHttpRequest(),
   three = document.querySelector('#three'),
   four = document.querySelector('#four'),
   five = document.querySelector('#five')
-inputId = document.querySelector('#inputId'),
-  buttonId = document.querySelector('#buttonId');
+  inputId = document.querySelector('#inputId'),
+  buttonId = document.querySelector('#buttonId'),
+  autocomplete = document.querySelector('.autocomplete');
 
 buttonId.addEventListener('click', call)
 
@@ -31,6 +32,9 @@ function weatherServer() {
     }
   })
   xml.send();
+
+
+
 
 
   function getData() {

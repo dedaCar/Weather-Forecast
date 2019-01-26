@@ -1,16 +1,80 @@
 #infoDiv {
   margin: 50px auto;
-  width : 350px;
-  height: 350px;
+  width : 300px;
+  height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 h2 {
   font-size: 30px;
-  color: #333;
+  color: #52D273;
   font-family: Helvetica;
+  text-shadow: 2px 3px black;
 }
+
+.autocomplete{
+  position: relative;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+
+.autocomplete-items DIV {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items DIV:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9;
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
+
 .margin-only {
   margin-top: 15px;
+}
+@media screen and (min-width: 480px) {
+  #infoDiv {
+    margin: 50px auto;
+    width : 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+@media screen and (min-width: 768px) {
+  #infoDiv {
+    margin: 50px auto;
+    width : 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+@media screen and (min-width: 979px){
+  #infoDiv {
+    margin: 50px auto;
+    width : 650px;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
 }
